@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brightstorm learning academic</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&family=Phudu&family=Poppins:wght@300;400;500;600;700;800&family=Righteous&family=Roboto+Mono:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="script.js" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation section -->
+
+    <nav>
+      <img src="Image/acadimeclogo.png" alt="" srcset="" />
+      <div class="navigation">
+        <ul>
+          <i class="ri-close-fill" id="menu-close"></i>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="ri-menu-2-line" id="menu-btn"></i>
+      </div>
+      <div class="search">
+        <input class="searchOption" type="text" placeholder="Search" /><i
+          class="ri-search-line"
+        ></i>
+      </div>
+    </nav>
+
+    <!-- Home section.. -->
+
+    <section id="home">
+      <h2>
+        Improve Your Future With <br />
+        <span
+          >Brightstorm <br />
+          Learning Academic</span
+        >
+      </h2>
+      <p>
+        In today's modern age with technological advances, the opportunity to
+        learn is seemingly everywhere. While you can pick up pieces of knowledge
+        by chance and through experience, you ingest the most when you are
+        dedicated and aware of learning. Luckily, you have options to earn
+        degrees in-person, online, or in a hybrid approach.
+      </p>
+      <div class="btn">
+        <a href="#" class="yellow">Learn More</a>
+        <a href="#" class="white">Visit Courses</a>
+      </div>
+    </section>
+
+    <!-- Features section -->
+    <section id="features">
+      <div class="content">
+        <h2>Features</h2>
+        <p>
+          We are all sculptors and painters, and our material is our <br />
+          own flesh and blood and bones. Any nobleness begins at once to refine
+          a man's features, <br />
+          any meanness or sensuality to imbrute them
+        </p>
+      </div>
+      <div class="cards">
+        <div class="card-content">
+          <i class="ri-graduation-cap-line"></i>
+          <h3>Scholarship Facility</h3>
+          <p>
+            People often say that motivation doesn't last. Well, neither does
+            bathing that's why we recommend it daily.
+          </p>
+        </div>
+        <div class="card-content">
+          <i class="ri-global-line"></i>
+          <h3>Online Course</h3>
+          <p>
+            Access to quality online learning is an important step in helping
+            people future-proof their skills and seek new opportunities for
+            growth and development.
+          </p>
+        </div>
+        <div class="card-content">
+          <i class="ri-medal-line"></i>
+          <h3>Global Certification</h3>
+          <p>
+            What you will get from the institution would be a uniform,
+            membership, and at best certificate. Real education is a personal
+            journey.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- course -->
+    <section id="Courses">
+      <h2>Our Popular Course</h2>
+      <p class="co-p">
+        People expect to be bored by eLearning let's show them it doesn't have
+        to be like that
+      </p>
+      <div class="course-container">
+        <div class="contents-container">
+          <div class="filter-buttons">
+            <button>Show All</button>
+            <button>Programming Courses</button>
+            <button>Graphics Courses</button>
+          </div>
+          <div class="filterable-cards">
+            <div
+              class="card"
+              data-name="programming"
+              onclick="window.location.href='course-inner.html';"
+            >
+              <img src="Image/course.png" alt="" srcset="" />
+              <div class="card-body">
+                <h4 class="price">$33.99</h4>
+                <p>Updated 21-05-2023</p>
+                <h3>JavaScript Basic Course</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-line"></i>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              data-name="programming"
+              onclick="window.location.href='course-inner1.html';"
+            >
+              <img src="Image/python.jpg" alt="" srcset="" />
+              <div class="card-body">
+                <h4 class="price">$33.99</h4>
+                <p>Updated 21-05-2023</p>
+                <h3>Python Basic Course</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-line"></i>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              data-name="programming"
+              onclick="window.location.href='course-inner2.html';"
+            >
+              <img src="Image/mongo.png" alt="" srcset="" />
+              <div class="card-body">
+                <h4 class="price">$33.99</h4>
+                <p>Updated 21-05-2023</p>
+                <h3>Mongo DB Course</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-line"></i>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              data-name="programming"
+              onclick="window.location.href='course-inner3.html';"
+            >
+              <img src="Image/angular.jpg" alt="" srcset="" />
+              <div class="card-body">
+                <h4 class="price">$33.99</h4>
+                <p>Updated 21-05-2023</p>
+                <h3>Angular Course</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-line"></i>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              data-name="programming"
+              onclick="window.location.href='course-inner4.html';"
+            >
+              <img src="Image/ai.png" alt="" srcset="" />
+              <div class="card-body">
+                <h4 class="price">$33.99</h4>
+                <p>Updated 21-05-2023</p>
+                <h3>Illustrator Basic Course</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-line"></i>
+              </div>
+            </div>
+
+            <div class="card" data-name="programming">
+              <img src="Image/course3.png" alt="" srcset="" />
+              <div class="card-body">
+                <h4 class="price">$33.99</h4>
+                <p>Updated 21-05-2023</p>
+                <h3>CSS hero to zero Course</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-line"></i>
+              </div>
+            </div>
+
+            <div class="card" data-name="programming">
+              <img src="Image/course4.png" alt="" srcset="" />
+              <div class="card-body">
+                <h4 class="price">$33.99</h4>
+                <p>Updated 21-05-2023</p>
+                <h3>HTML,CSS Course</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-line"></i>
+              </div>
+            </div>
+
+            <div class="card" data-name="programming">
+              <img src="Image/figma.png" alt="" srcset="" />
+              <div class="card-body">
+                <h4 class="price">$33.99</h4>
+                <p>Updated 21-05-2023</p>
+                <h3>figma Course</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-line"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- register -->
+    <section id="registration">
+      <div class="reminder">
+        <p>Get 100 course online for free</p>
+        <h1>Register to get it</h1>
+        <div class="time">
+          <div class="date">
+            18 <br />
+            Days
+          </div>
+          <div class="date">
+            06 <br />
+            Hours
+          </div>
+          <div class="date">
+            55 <br />
+            Minutes
+          </div>
+          <div class="date">
+            12 <br />
+            Seconds
+          </div>
+        </div>
+      </div>
+
+      <div class="form">
+        <h3>Create free Account NOW!</h3>
+        <input type="text" placeholder="Name" name="" id="" />
+        <input type="text" placeholder="Email Address" name="" id="" />
+        <input type="text" placeholder="Phone Number" name="" id="" />
+        <div class="btn">
+          <a href="#" class="yellow"> Get It Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="gallery-container">
+        <div class="gallery-header">
+          <h2>Gallery</h2>
+          <p>
+            The nice thing about the gallery shows is that without having to
+            <br />
+            pay any money you can just go and see it
+          </p>
+        </div>
+
+        <div class="photo-gallery">
+          <div class="column">
+            <div class="photo">
+              <div class="photos">
+                <img src="Image/gallery (1).jpg" alt="" srcset="" />
+              </div>
+              <div class="photos">
+                <img src="Image/gallery (2).jpg" alt="" srcset="" />
+              </div>
+              <div class="photos">
+                <img src="Image/gallery (3).jpg" alt="" srcset="" />
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="photo">
+              <div class="photos">
+                <img src="Image/gallery (4).jpg" alt="" srcset="" />
+              </div>
+              <div class="photos">
+                <img src="Image/gallery (5).jpg" alt="" srcset="" />
+              </div>
+              <div class="photos">
+                <img src="Image/gallery (6).jpg" alt="" srcset="" />
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="photo">
+              <div class="photos">
+                <img src="Image/gallery (7).jpg" alt="" srcset="" />
+              </div>
+              <div class="photos">
+                <img src="Image/gallery (8).jpg" alt="" srcset="" />
+              </div>
+              <div class="photos">
+                <img src="Image/gallery (9).jpg" alt="" srcset="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="client">
+      <div class="client-header">
+        <h2>What Clients Say</h2>
+        <p>
+          The nice thing about the gallery shows is that without having to
+          <br />pay any money you can just go and see it
+        </p>
+      </div>
+      <div class="client-container">
+        <div class="client-testimonial">
+          <div class="slide-row" id="slide">
+            <div class="slide-col">
+              <div class="user-text">
+                <p>
+                  Access to quality online learning is an important step in
+                  helping people future-proof their skills and seek new
+                  opportunities for growth and development.
+                </p>
+                <h3>Web Developer</h3>
+                <p>RANA ISLAM</p>
+              </div>
+              <div class="user-img">
+                <img src="Image/clientImg.png" alt="" srcset="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      var btn = document.getElementsByClassName("ctn");
+      var slide = document.getElementById("slide");
+      ctn[0].onclick = function () {
+        slide.style.transform = "translateX(0px)";
+      };
+      ctn[1].onclick = function () {
+        slide.style.transform = "translateX(-800px)";
+      };
+      ctn[2].onclick = function () {
+        slide.style.transform = "translateX(-1600px)";
+      };
+    </script>
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer-content">
+        <img src="Image/footer-icon.png" alt="" srcset="" />
+        <p>
+          We Develop your Dream.Education is simply the soul of a society as it
+          passes from one generation to another.
+        </p>
+        <div class="icon">
+          <i class="ri-linkedin-box-fill"></i>
+          <i class="ri-facebook-box-fill"></i>
+          <i class="ri-instagram-fill"></i>
+          <i class="ri-youtube-fill"></i>
+        </div>
+      </div>
+
+      <div class="footer-content">
+        <h4>Top Products</h4>
+        <li><a href="#">Manage Reputation</a></li>
+        <li><a href="#">Power tools</a></li>
+        <li><a href="#">Manage Website</a></li>
+        <li><a href="#">Marketing Service</a></li>
+      </div>
+
+      <div class="footer-content">
+        <h4>Quick Links</h4>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Brand Assets</a></li>
+        <li><a href="#">Invest Relations</a></li>
+        <li><a href="#">Terms and Service</a></li>
+      </div>
+
+      <div class="footer-content">
+        <h4>Resource</h4>
+        <li><a href="#">Guides</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Expert</a></li>
+        <li><a href="#">Marketing Service</a></li>
+      </div>
+
+      <div class="footer-content">
+        <h4>Features</h4>
+        <li><a href="#">Manage Reputation</a></li>
+        <li><a href="#">Power tools</a></li>
+        <li><a href="#">Manage Website</a></li>
+        <li><a href="#">Marketing Service</a></li>
+      </div>
+    </section>
+
+    <script>
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+  </body>
+</html>
